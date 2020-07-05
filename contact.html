@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>contact</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Arati Bhandwalkar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2 class="mb-5">Contact</h2>
+        
+
+        <form> 
+            <div class="row"> <!--first and last name input-->
+                <div class="col-sm-6 mb-3">
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+            </div> 
+
+            <div class="form-group">  <!--e-mail input-->
+                <input type="text" class="form-control" id="contactEmail" placeholder="example@email.com" required>
+            </div>
+            
+            <div class="form-group">  <!--message input-->
+                <textarea class="form-control" id="contactTextInput" placeholder=""></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block">Send</button>
+        </form>
+
+
+    </main>
+    
+    
+        <!-- This is a blank div that is given the same height as the footer. This makes the body long enough to add in a footer without it overlapping content in the body. -->
+        <div class="push"></div>
+    </div>
+    <footer>
+        <footer class="footer mt-5 p-4">
+            
+            <p class="text-center">&copy; 2020 Arati Bhandwalkar</p>
+        </footer>
+    </footer>
+    
+</body>
+</html>

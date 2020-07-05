@@ -1,0 +1,38 @@
+
+.card {
+
+    
+    margin: 10px;
+    margin-top: 80px;
+}
+#about-me {
+
+    font-weight: 500;
+    
+}
+
+header {
+    background-color: rgb(78, 126, 197);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+body {
+    background-image: url("assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg");
+}
+#pTitle {
+
+    color: whitesmoke;
+    margin-top: 80px;
+}
+.footer{
+    bottom: 0;
+    color: white;
+}
+ 
+
+
+
+
